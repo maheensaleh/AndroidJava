@@ -1,0 +1,63 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <TextView
+        android:id="@+id/txt1"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentTop="true"
+        android:layout_alignParentRight="true"
+        android:layout_marginTop="53dp"
+        android:layout_marginRight="154dp"
+        android:text="Hello"
+        android:textSize="50dp" />
+
+    <EditText
+        android:id="@+id/input1"
+        android:layout_width="220dp"
+        android:layout_height="73dp"
+        android:layout_alignParentTop="true"
+        android:layout_alignParentRight="true"
+        android:layout_marginTop="160dp"
+        android:layout_marginRight="90dp"
+        android:text="type here"
+        android:textAlignment="center" />
+
+    <Button
+        android:id="@+id/submit"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentTop="true"
+        android:layout_alignParentRight="true"
+        android:layout_marginTop="283dp"
+        android:layout_marginRight="123dp"
+        android:text="Submit"
+        android:textAlignment="center"
+        android:textSize="30dp" />
+
+    <ImageView
+        android:id="@+id/pic"
+        android:layout_width="112dp"
+        android:layout_height="wrap_content"
+        android:layout_alignParentTop="true"
+        android:layout_alignParentRight="true"
+        android:layout_marginTop="377dp"
+        android:layout_marginRight="133dp"
+        app:srcCompat="@drawable/pooh" />
+
+    <TextView
+        android:id="@+id/txt2"
+        android:layout_width="147dp"
+        android:layout_height="33dp"
+        android:layout_alignParentTop="true"
+        android:layout_alignParentRight="true"
+        android:layout_marginTop="555dp"
+        android:layout_marginRight="113dp"
+        android:textAlignment="center"
+        android:textSize="20dp" />
+
+
+</RelativeLayout>
